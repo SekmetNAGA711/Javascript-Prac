@@ -24,3 +24,13 @@ var yourName = "ballon";
 var yourUpper = yourName.toUpperCase();
 
 console.log(yourUpper);
+
+
+
+var firstName = "tess";
+
+var firstLetter = firstName.slice(0,1);
+
+var remainLetters = firstName.slice(1, 30);
+
+console.log("your name is " + firstLetter.toUpperCase() + remainLetters);
