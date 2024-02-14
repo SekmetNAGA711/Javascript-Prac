@@ -27,10 +27,16 @@ console.log(yourUpper);
 
 
 
-var firstName = "tess";
+var firstName = "tESs";
 
 var firstLetter = firstName.slice(0,1);
 
-var remainLetters = firstName.slice(1, 30);
+var remainLetters = firstName.slice(1, firstName.length);
 
-console.log("your name is " + firstLetter.toUpperCase() + remainLetters);
+console.log("your name is " + firstLetter.toUpperCase() + remainLetters.toLowerCase());
+
+console.log(45%2);
+
+
+
+
